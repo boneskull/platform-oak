@@ -1,0 +1,190 @@
+{
+  "toolchain-xtensa": [
+    {
+      "sha1": "bee3eeff0eb26d7058de3378b428389b53554dd8",
+      "system": [
+        "darwin_x86_64",
+        "darwin_i386"
+      ],
+      "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-xtensa-darwin_x86_64-1.40802.0.tar.gz",
+      "version": "1.40802.0"
+    },
+    {
+      "sha1": "a673ffc6c2f5e7ebd9b92ea4048a101e300fa8ad",
+      "system": [
+        "freebsd_amd64"
+      ],
+      "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-xtensa-freebsd_amd64-1.40802.0.tar.gz",
+      "version": "1.40802.0"
+    },
+    {
+      "sha1": "438ec310c512c3b6b11049a3a625ba8eef90d0bd",
+      "system": [
+        "linux_armv6l",
+        "linux_armv7l"
+      ],
+      "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-xtensa-linux_armv6l-1.40802.0.tar.gz",
+      "version": "1.40802.0"
+    },
+    {
+      "sha1": "221c4bab9ddda1303c916ee44b0a5b600785274b",
+      "system": [
+        "linux_i686"
+      ],
+      "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-xtensa-linux_i686-1.40802.0.tar.gz",
+      "version": "1.40802.0"
+    },
+    {
+      "sha1": "80aee4c43fcf0aed234fd89f032c01f160544d24",
+      "system": [
+        "linux_x86_64"
+      ],
+      "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-xtensa-linux_x86_64-1.40802.0.tar.gz",
+      "version": "1.40802.0"
+    },
+    {
+      "sha1": "f5fa002b0689d7cc9e1770b946ec682638ca1127",
+      "system": [
+        "windows",
+        "windows_amd64",
+        "windows_x86"
+      ],
+      "url": "https://dl.bintray.com/platformio/dl-packages/toolchain-xtensa-windows-1.40802.0.tar.gz",
+      "version": "1.40802.0"
+    }
+  ],
+  "tool-oakcli": [
+    {
+      "url": "https://github.com/digistump/OakCLI/releases/download/1.0.2/oakcli-1.0.2-linux32.tar.gz",
+      "version": "1.0.2",
+      "sha1": "2986360a0bb79462402d6b4817347e95538a4484",
+      "system": [
+        "linux_i686"
+      ]
+    },
+    {
+      "url": "https://github.com/digistump/OakCLI/releases/download/1.0.2/oakcli-1.0.2-linux64.tar.gz",
+      "version": "1.0.2",
+      "sha1": "70e1fd7a10cc670be2b4cf67e209f94bc3c3980c",
+      "system": [
+        "linux_x86_64"
+      ]
+    },
+    {
+      "url": "https://github.com/digistump/OakCLI/releases/download/1.0.2/oakcli-1.0.2-win32.zip",
+      "version": "1.0.2",
+      "sha1": "8d4ab23c0be13425ef4082563b53124a07ee855f",
+      "system": [
+        "windows",
+        "windows_amd64",
+        "windows_x86"
+      ]
+    },
+    {
+      "url": "https://github.com/digistump/OakCLI/releases/download/1.0.2/oakcli-1.0.2-osx.tar.gz",
+      "version": "1.0.2",
+      "sha1": "c7a8e2069f7d4c5f6d415d730c2f9ee3e0222a4f",
+      "system": [
+        "darwin_x86_64",
+        "darwin_i386"
+      ]
+    }
+  ],
+  "tool-esptool2": [
+    {
+      "url": "https://github.com/digistump/OakCore/releases/download/0.9.2/esptool2-0.9.1-linux32.tar.gz",
+      "version": "0.9.1",
+      "sha1": "f8be0930e8079421e9b9d92ea83881677ff7b900",
+      "system": [
+        "linux_i686"
+      ]
+    },
+    {
+      "url": "https://github.com/digistump/OakCore/releases/download/0.9.2/esptool2-0.9.1-linux64.tar.gz",
+      "version": "0.9.1",
+      "sha1": "6d729bc4e29cd9e40d3b1007c71541c9840c498d",
+      "system": [
+        "linux_x86_64"
+      ]
+    },
+    {
+      "url": "https://github.com/digistump/OakCore/releases/download/0.9.2/esptool2-0.9.1-win32.zip",
+      "version": "0.9.1",
+      "sha1": "27976270b4589abfae6fc7a05f64a7604e5cf28b",
+      "system": [
+        "windows",
+        "windows_amd64",
+        "windows_x86"
+      ]
+    },
+    {
+      "url": "https://github.com/digistump/OakCore/releases/download/0.9.2/esptool2-0.9.1-osx.tar.gz",
+      "version": "0.9.1",
+      "sha1": "ba092f8444510dad351d9f74ad1354ce5492cff3",
+      "system": [
+        "darwin_x86_64",
+        "darwin_i386"
+      ]
+    }
+  ],
+  "framework-oakcore": [
+    {
+      "url": "https://dl.bintray.com/boneskull/OakCore/OakCore-1.0.6.tar.gz",
+      "system": "*",
+      "version": "1.0.6",
+      "sha1": "9ae28d91ab26a6cb07d92a0b1fcb070a2c10a040"
+    }
+  ],
+  "tool-mkspiffs": [
+    {
+      "sha1": "1cc93baaa9e2dcb8223f535cd31531d088b1d838",
+      "system": [
+        "darwin_x86_64",
+        "darwin_i386"
+      ],
+      "url": "https://dl.bintray.com/platformio/dl-packages/tool-mkspiffs-darwin_x86_64-1.102.0.tar.gz",
+      "version": "1.102.0"
+    },
+    {
+      "sha1": "0d8e33991ee721d2628a94f38abedb8ba5df80d0",
+      "system": "freebsd_amd64",
+      "url": "https://dl.bintray.com/platformio/dl-packages/tool-mkspiffs-freebsd_amd64-1.102.0.tar.gz",
+      "version": "1.102.0"
+    },
+    {
+      "sha1": "93554e63e1fe3b70a6fea54260c7cbfb6dd96a61",
+      "system": [
+        "linux_armv6l",
+        "linux_armv7l"
+      ],
+      "url": "https://dl.bintray.com/platformio/dl-packages/tool-mkspiffs-linux_armv6l-1.102.0.tar.gz",
+      "version": "1.102.0"
+    },
+    {
+      "sha1": "bdf9dba14cc8b49b30aca599c9a1820ffdd368f1",
+      "system": [
+        "linux_i686"
+      ],
+      "url": "https://dl.bintray.com/platformio/dl-packages/tool-mkspiffs-linux_i686-1.102.0.tar.gz",
+      "version": "1.102.0"
+    },
+    {
+      "sha1": "dde5cfe37c083f183f6a697e361c09a94e801e61",
+      "system": [
+        "linux_x86_64"
+      ],
+      "url": "https://dl.bintray.com/platformio/dl-packages/tool-mkspiffs-linux_x86_64-1.102.0.tar.gz",
+      "version": "1.102.0"
+    },
+    {
+      "sha1": "ce763772e2f802c788602020802151b1b803e10a",
+      "system": [
+        "windows",
+        "windows_amd64",
+        "windows_x86"
+      ],
+      "url": "https://dl.bintray.com/platformio/dl-packages/tool-mkspiffs-windows-1.102.0.tar.gz",
+      "version": "1.102.0"
+    }
+  ]
+}

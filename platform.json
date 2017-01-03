@@ -1,0 +1,50 @@
+{
+  "name": "oak",
+  "title": "Oak",
+  "description": "Oak by Digistump",
+  "url": "http://digistump.com/oak",
+  "homepage": "https://github.com/boneskull/platform-oak",
+  "license": "MIT",
+  "engines": {
+    "platformio": "~3.2.1",
+    "scons": ">=2.3.0,<2.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bonesukll/platform-oak.git"
+  },
+  "version": "0.0.0",
+  "packageRepositories": [
+    "https://raw.githubusercontent.com/boneskull/platform-oak/manifest.json"
+  ],
+  "frameworks": {
+    "oak": {
+      "package": "framework-oak",
+      "script": "builder/frameworks/oak.py"
+    }
+  },
+  "packages": {
+    "toolchain-xtensa": {
+      "type": "toolchain",
+      "version": "~1.40802.0"
+    },
+    "framework-oakcore": {
+      "type": "framework",
+      "version": "~1.0.5"
+    },
+    "tool-oakcli": {
+      "type": "uploader",
+      "version": "~1.0.2"
+    },
+    "tool-esptool2": {
+      "type": "uploader",
+      "optional": true,
+      "version": "~0.9.1"
+    },
+    "tool-mkspiffs": {
+      "type": "uploader",
+      "optional": true,
+      "version": "~1.102.0"
+    }
+  }
+}
