@@ -15,12 +15,12 @@
   },
   "version": "0.0.0",
   "packageRepositories": [
-    "https://raw.githubusercontent.com/boneskull/platform-oak/manifest.json"
+    "https://raw.githubusercontent.com/boneskull/platform-oak/master/manifest.json"
   ],
   "frameworks": {
     "oak": {
       "package": "framework-oak",
-      "script": "builder/frameworks/oak.py"
+      "script": "builder/frameworks/oakcore.py"
     }
   },
   "packages": {
